@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trongate — Operations Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/trongate/trongate-framework@master/public/css/trongate-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/trongate/trongate-framework@master/public/css/trongate.css">
+</head>
+<body>
+  <header class="container-xxl">
+    <div class="flex-row justify-between align-center flex-wrap">
+      <div class="mt-1 mb-1">
+        <p class="xs mt-0 mb-0">TRONGATE / WORKSPACE</p>
+        <h2 class="mt-0 mb-0 ">Good morning, Ocira!</h2>
+        <p class="sm mt-0 mb-0">Here’s what’s happening across your workspace today.</p>
+      </div>
+      <div class="flex-row align-center flex-wrap">
+        <a class="button alt mr-1" href="#reports">Reports</a>
+        <a class="button" href="#new-project">＋ New project</a>
+      </div>
+    </div>
+    <hr>
+    <nav class="flex-row align-center flex-wrap" aria-label="Main navigation">
+      <a class="button mr-1 mb-1" href="#overview">Overview</a>
+      <a class="button alt mr-1 mb-1" href="#projects">Projects</a>
+      <a class="button alt mr-1 mb-1" href="#activity">Activity</a>
+      <a class="button alt mr-1 mb-1" href="#reports">Reports</a>
+      <a class="button alt mr-1 mb-1" href="#team">Team</a>
+    </nav>
+  </header>
+
+  <main class="container-xxl" id="overview">
+    <section>
+      <div class="flex-row justify-between align-center flex-wrap mt-2 mb-1">
+        <div>
+          <p class="xs mt-0 mb-0">TUESDAY, 24 NOVEMBER 2026</p>
+          <h2 class="mt-0 mb-0">Workspace overview</h2>
+        </div>
+        <p class="sm mt-1 mb-1">All systems operational Updated just now</p>
+      </div>
+
+      <div class="flex-row flex-wrap">
+        <article class="card flex-grow mr-1 mb-1">
+          <div class="card-heading">Total revenue</div>
+          <div class="card-body">
+            <p class="xs mt-0 mb-1">THIS MONTH</p>
+            <h2 class="mt-0 mb-0">UGX 48.6M</h2>
+            <p class="success sm mb-0"> 12.8% <span class="inverse">compared with last month</span></p>
+          </div>
+        </article>
+        <article class="card flex-grow mr-1 mb-1">
+          <div class="card-heading">Active projects</div>
+          <div class="card-body">
+            <p class="xs mt-0 mb-1">IN PROGRESS</p>
+            <h2 class="mt-0 mb-0">24</h2>
+            <p class="sm mb-0">6 projects due this week</p>
+          </div>
+        </article>
+        <article class="card flex-grow mr-1 mb-1">
+          <div class="card-heading">Team members</div>
+          <div class="card-body">
+            <p class="xs mt-0 mb-1">ACROSS WORKSPACE</p>
+            <h2 class="mt-0 mb-0">18</h2>
+            <p class="sm mb-0">3 teams collaborating</p>
+          </div>
+        </article>
+        <article class="card flex-grow mb-1">
+          <div class="card-heading success">Tasks completed</div>
+          <div class="card-body">
+            <p class="xs mt-0 mb-1">THIS WEEK</p>
+            <h2 class="mt-0 mb-0">86%</h2>
+            <p class="success sm mb-0"> 8.4% <span class="inverse">completion rate</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="flex-row flex-wrap">
+      <div class="flex-grow mr-2 mb-2" id="projects">
+        <p class="xs mt-0 mb-0">YOUR WORK</p>
+        <h2 class="mt-0 mb-1">Projects in motion</h2>
+        <div class="card">
+          <div class="card-heading">Project health</div>
+          <div class="card-body">
+            <div class="flex-row justify-between align-center flex-wrap">
+              <strong>Website redesign</strong>On track
+            </div>
+            <p class="sm mt-0 mb-1">Marketing · Due 30 Nov</p>
+            <div class="flex-row justify-between"><span class="sm">Progress</span><strong class="sm">78%</strong></div>
+            <progress value="78" max="100">78%</progress>
+            <hr>
+            <div class="flex-row justify-between align-center flex-wrap">
+              <strong>Mobile application</strong>Needs attention
+            </div>
+            <p class="sm mt-0 mb-1">Product · Due 02 Dec</p>
+            <div class="flex-row justify-between"><span class="sm">Progress</span><strong class="sm">54%</strong></div>
+            <progress value="54" max="100">54%</progress>
+            <hr>
+            <div class="flex-row justify-between align-center flex-wrap">
+              <strong>Customer portal</strong> On track
+            </div>
+            <p class="sm mt-0 mb-1">Engineering  Due 08 Dec</p>
+            <div class="flex-row justify-between"><span class="sm">Progress</span><strong class="sm">91%</strong></div>
+            <progress value="91" max="100">91%</progress>
+          </div>
+        </div>
+      </div>
+
+      <aside class="flex-grow mb-2" id="activity">
+        <p class="xs mt-0 mb-0">LIVE FEED</p>
+        <h2 class="mt-0 mb-1">Recent activity</h2>
+        <div class="card">
+          <div class="card-heading">Latest updates</div>
+          <div class="card-body">
+            <p class="mt-0"><strong>Sarah K.</strong><br><span class="sm">Uploaded the new brand guidelines.</span><br><span class="xs">10 minutes ago</span></p>
+            <hr>
+            <p><strong>Daniel M.</strong><br><span class="sm">Completed the API integration task.</span><br><span class="xs">42 minutes ago</span></p>
+            <hr>
+            <p><strong>You</strong><br><span class="sm">Created the Q4 performance report.</span><br><span class="xs">1 hour ago</span></p>
+            <hr>
+            <p><strong>Grace A.</strong><br><span class="sm">Commented on Mobile application.</span><br><span class="xs">2 hours ago</span></p>
+            <a href="#all-activity">See all activity →</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <hr>
+
+    <section id="reports">
+      <div class="flex-row justify-between align-center flex-wrap">
+        <div>
+          <p class="xs mt-0 mb-0">PERFORMANCE</p>
+          <h2 class="mt-0 mb-1">Recent transactions</h2>
+        </div>
+        <a class="button alt" href="#all-transactions">Export report ↓</a>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <p class="sm mt-0">A snapshot of the latest payments across your workspace.</p>
+          <form action="#" method="get">
+            <label for="transaction-search">Search transactions</label>
+            <input id="transaction-search" type="search" placeholder="Search by name or reference">
+          </form>
+          <div class="mt-2">
+            <table>
+              <thead><tr><th>Reference</th><th>Customer</th><th>Date</th><th>Amount</th><th>Status</th></tr></thead>
+              <tbody>
+                <tr>
+                    <td>#NS-2048</td>
+                    <td>Acme Solutions</td>
+                    <td>24 Nov 2026</td>
+                    <td>UGX 4,500,000</td>
+                    <td> Paid</td>
+                </tr>
+                <tr>
+                    <td>#NS-2047</td>
+                    <td>Greenline Ltd</td>
+                    <td>23 Nov 2026</td>
+                    <td>UGX 2,850,000</td>
+                    <td> Paid</td>
+                </tr>
+                <tr>
+                    <td>#NS-2046</td>
+                    <td>Orbit Systems</td>
+                    <td>23 Nov 2026</td>
+                    <td>UGX 1,200,000</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>#NS-2045</td>
+                    <td>Bright Future Co.</td>
+                    <td>22 Nov 2026</td>
+                    <td>UGX 3,750,000</td>
+                    <td> Overdue</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="flex-row justify-between align-center flex-wrap mt-1">
+            <p class="xs">Showing 4 of 128 transactions</p>
+            <div class="pagination" aria-label="Pagination">
+              <a href="#previous">‹</a><a href="#page-1" class="active" aria-current="page">1</a><a href="#page-2">2</a><a href="#page-3">3</a><a href="#next">›</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="flex-row flex-wrap" id="team">
+      <div class="flex-grow mr-2 mb-2">
+        <p class="xs mt-0 mb-0">STAY FO</Pending>CUSED</p>
+        <h2 class="mt-0 mb-1">Your next steps</h2>
+        <div class="card">
+          <div class="card-heading">Priority checklist</div>
+          <div class="card-body">
+            <p><input type="checkbox" id="task-one">Review the November financial report</p>
+            <p><input type="checkbox" id="task-two">Approve the mobile app wireframes</p>
+            <p><input type="checkbox" id="task-three">Schedule the weekly team check-in</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-grow mb-2" id="new-project">
+        <p class="xs mt-0 mb-0">QUICK ACTION</p>
+        <h2 class="mt-0 mb-1">Create a project</h2>
+        <div class="card">
+          <div class="card-heading">New workspace project</div>
+          <div class="card-body">
+            <form action="#" method="post">
+              <label for="project-name">Project name <span>*</span></label>
+              <input id="project-name" name="project_name" type="text" placeholder="e.g. Customer experience refresh" required>
+              <label for="project-owner">Project owner</label>
+              <select id="project-owner" name="project_owner">
+                <option value="">Choose a team member</option><option>Sarah K.</option><option>Daniel M.</option><option>Grace A.</option>
+              </select>
+              <label for="project-description">Description</label>
+              <textarea id="project-description" name="description" rows="3" placeholder="What is this project about?"></textarea>
+              <p class="button-container"><button type="submit">＋ Create project</button><button class="alt" type="reset">Clear</button></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container-xxl text-center">
+    <hr>
+    <p class="xs">TRONGATE WORKSPACE · &copy 2026</p>
+  </footer>
+</body>
+</html>
